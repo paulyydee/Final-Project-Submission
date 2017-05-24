@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CubLove Center | Welcome to Cub Love Early Learning Center</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+
+body {
+   // background: transparent url('../img/large_banner.png') no-repeat scroll center top;
+   position: absolute;
+   line-height: 1;
+   height: 2810px;
+   width: 980px;
+   margin: 0 auto;
+}
+
+header {
+   text-align: center;
+   color: #222;
+   height: (28 * $leading);
+   background-image: url('../img/large-banner-image.png');
+   background-size: cover;
+
+   h1 {
+      position: relative;
+      text-align: center;
+      vertical-align: top;
+      font: 
+
+      img {
+         position: absolute;
+         width: 72px;
+         height: 101px;
+      }
+
+      span {
+         padding-left: ($width--grid-unit + 10);
+      }
+   }
+
+   p {
+      margin-top: (2.75 * $leading);
+      font: {
+         weight: $light;
+         size: (2.25 * $font-size--base);
+         family: $font-stack--raleway;
+      }
+   }
+
+nav {
+   text-align: center;
+   margin: auto;
+}
+
+nav ul {
+  padding: 30px;
+  list-style: none;
+}
+
+nav ul li {
+   text-align: center;
+   margin: 20px 0;
+   display: inline-block;
+}
+
+div {
+   padding: 44px 0;
+   height: 100vh;
+}
+
+a {
+   transition: 250ms;
+}
+
+a:hover {
+   background-color: #5d4412;
+   color: white;
+}
+
+a:active {
+   text-decoration: underline;
+}
+
+
+
+.Hero{
+  background: url(img/large_banner.png);
+  background-size: cover;
+  height: 700px;
+  width: 1600px;
+}
+.columns{
+  position: relative;
+}
+
+.h3{
+  text-align: center;
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.features {
+   &__container {
+      position: relative;
+      text-align: center;
+      margin: 0 auto;
+      width: ((14 * $width--grid-unit) + $width--grid-column);
+   }
+
+      img {
+         position: absolute;
+
+.h3 {
+      font-size: (1.375 * $font-size--base);
+      line-height: (.72 * $leading);
+      margin: {
+         top: (2 * $leading);
+         bottom: (.75 * $leading);
+      }
+   }
+
+   p {
+      color: $color--main;
+
+      font: {
+         family: $font-stack--helvetica-neue;
+         size: $font-size--base;
+      }
+
+      line-height: ($leading + 1);
+   }
+}
+
+.footer_banner{
+   margin: (2.5 * $leading) auto;
+   height: (25.75 * $leading);
+   background: url('../img/footer_banner.png') repeat-x scroll center,
+   font-family: $font-stack--helvetica-neue;
+   text-align: center;
+   p {
+      margin: {
+         top: (.35 * $leading);
+         bottom: $leading;
+         float: right;
+      }
+   }
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+</style>
+</head>
